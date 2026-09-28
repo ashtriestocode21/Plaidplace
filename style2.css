@@ -1,13 +1,48 @@
 
 
-#wall {
-    height: 100%;
-}
+
 body {
 
-    background-image: url(plumbing-pipes.jpg);
+    background-image: url(mousebg.png);
+    background-size: 1920px; ;
+    background-repeat: no-repeat;
 }
-#mouseguy {
 
-    position: relative;
-}
+
+.imageBox {
+      position: fixed;
+      top: 30%;
+      size: 10px;
+    }
+
+    .imageBox .mousespeaks {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+      
+    }
+
+    .imageBox:hover .mousespeaks {
+      display: inherit;
+      
+      left: 0px;
+    }
+
+    .imageBox:hover .mouse {
+
+        display: none;
+    }
+
+
+    #bed img{
+        size: 500px;
+        position: relative;
+        bottom: 0px;
+        left: 100;
+        margin-top: 300px;
+    
+    }
+
+
+    
