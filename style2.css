@@ -1,0 +1,13 @@
+
+
+#wall {
+    height: 100%;
+}
+body {
+
+    background-image: url(plumbing-pipes.jpg);
+}
+#mouseguy {
+
+    position: relative;
+}
